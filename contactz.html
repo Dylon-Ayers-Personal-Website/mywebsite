@@ -23,8 +23,57 @@
   </head>
   <body>
     <div class="grid">
-      <aside></aside>
-      <main></main>
+      <aside>
+        <section class="aside-section-contact">
+          <h1 class="contact-form-title">
+            Ask me a question<br />
+            and I will answer!
+          </h1>
+          <form class="contact-form-container" action="./success.html">
+            <div class="contact-form">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname" /><br />
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname" /><br />
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" /><br />
+            </div>
+            <div class="contact-form">
+              <label for="comment">Your question here:</label>
+              <textarea
+                name="comment"
+                id="comment"
+                rows="5"
+                cols="30"
+              ></textarea
+              ><br />
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </section>
+        <section class="aside-section-contact">
+          <h1 class="contact-details-title">Extended contact Info</h1>
+          <p>
+            Physical Address:<br />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /><br />
+            Mailing Address:<br />
+            PO BOX: Lorem.<br /><br />
+            X(formerly twitter):<br />
+            @lorem1
+          </p>
+        </section>
+      </aside>
+      <main>
+        <div class="main-div" id="main-div-contact">
+          <h1 class="contact-main">
+            Reach out to me with questions, concerns, or if you just want to
+            chat!
+          </h1>
+        </div>
+        <div class="name-div">
+          <header class="my-name">Dylon Ayers</header>
+        </div>
+      </main>
     </div>
     <footer>
       <ul class="footer-list">
